@@ -1,0 +1,27 @@
+QUESTÕES
+
+1. Por que o switch é adequado para o menu? Porque o menu possui várias opções fixas. O switch permite verificar a opção escolhida e executar uma ação diferente para cada caso.
+
+2. Qual é a diferença entre while e do...while? O while verifica a condição antes de executar o código. O do...while executa o código primeiro e só depois verifica a condição.
+
+3. Por que o do...while foi utilizado na validação da senha? Porque a senha precisa ser solicitada pelo menos uma vez. Se estiver incorreta, o programa continua pedindo até o usuário digitar 1234.
+
+4. Em qual situação o break encerra o programa? Quando o usuário escolhe a opção 0 - Finalizar. O break encerra o laço while dos pedidos.
+
+5. O que aconteceria se retirássemos o continue da opção inválida? O programa continuaria executando o restante do código daquela repetição. Nesse caso, poderia tentar adicionar um produto mesmo que a opção fosse inválida.
+
+6. Por que o for é adequado quando sabemos previamente a quantidade de repetições? Porque o for permite definir facilmente quantas vezes a repetição acontecerá. No programa, sabemos a quantidade total de produtos comprados.
+
+7. Reescreva a condição do desconto utilizando if/else e compare-a com o operador ternário.
+
+Com operador ternário:
+let desconto = total >= 50 ? total * 0.10 : 0;
+
+Com if/else:
+let desconto;
+
+if (total >= 50) {
+    desconto = total * 0.10;
+} else {
+    desconto = 0;
+}
